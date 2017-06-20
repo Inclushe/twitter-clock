@@ -21,7 +21,7 @@ function createClockAvatar () {
 
   function drawHourHand () {
     gm(1000, 1000, 'transparent')
-      .draw('image Over 0,0 1000,1000 hour_hand.png')
+      .draw('image Over 0,0 1000,1000 hands/hour_hand.png')
       .rotate('transparent', currentHourDeg + (currentMinutesDeg / 12))
       .gravity('Center')
       .crop(1000, 1000)
@@ -33,7 +33,7 @@ function createClockAvatar () {
 
   function drawMinuteHand () {
     gm(1000, 1000, 'transparent')
-      .draw('image Over 0,0 1000,1000 minute_hand.png')
+      .draw('image Over 0,0 1000,1000 hands/minute_hand.png')
       .rotate('transparent', currentMinutesDeg)
       .gravity('Center')
       .crop(1000, 1000)
