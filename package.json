@@ -1,5 +1,15 @@
 {
+  "name": "twitter-clock",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@gitlab.com:Inclushe/twitter-clock.git",
+  "author": "Ethan <inclushe@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "gm": "^1.23.0"
+    "gm": "^1.23.0",
+    "twitter": "^1.7.1"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
