@@ -1,8 +1,17 @@
 {
+  "backgroundColor": "#333333",
+  "size": 1000,
+  "debug": false,
+  "uploadToTwitter": false,
+  "imageLocations": {
+    "hourHand": "images/hour_hand.png",
+    "minuteHand": "images/minute_hand.png",
+    "background": "images/background.png"
+  },
   "twitter": {
-    "consumer_key": "<enter keys>",
-    "consumer_secret": "<enter keys>",
-    "access_token_key": "<enter keys>",
-    "access_token_secret": "<enter keys>"
+    "consumerKey": "<enter keys>",
+    "consumerSecret": "<enter keys>",
+    "accessTokenKey": "<enter keys>",
+    "accessTokenSecret": "<enter keys>"
   }
 }
