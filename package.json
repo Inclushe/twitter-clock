@@ -1,6 +1,7 @@
 {
   "name": "twitter-clock",
-  "version": "0.0.1",
+  "description": "Turns your Twitter profile picture into an accurate clock that updates every minute.",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": "git@gitlab.com:Inclushe/twitter-clock.git",
   "author": "Ethan <inclushe@gmail.com>",

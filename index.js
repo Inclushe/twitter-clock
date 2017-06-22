@@ -87,9 +87,9 @@ function createClockAvatar (currentHour, currentMinutes) {
   function drawClock () {
     if (fs.existsSync(config.imageLocations.background)) {
       gm(config.size, config.size, config.backgroundColor)
+        .draw(`image Over 0,0 ${config.size},${config.size} ${config.imageLocations.background}`)
         .draw(`image Over 0,0 ${config.size},${config.size} temp/hour_${name}.png`)
         .draw(`image Over 0,0 ${config.size},${config.size} temp/minute_${name}.png`)
-        .draw(`image Over 0,0 ${config.size},${config.size} ${config.imageLocations.background}`)
         .write(`temp/clock_${name}.png`, err => {
           handleError(err)
           console.log('The new image was created. Uploading to Twitter...')
@@ -114,7 +114,6 @@ function createClockAvatar (currentHour, currentMinutes) {
       client.post('account/update_profile_image', {image: data}, function (error, media, response) {
         if (error) {
           console.error(error)
-          return
         } else if (response.statusCode !== 200) {
           console.error(response.body)
         } else {

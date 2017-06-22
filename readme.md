@@ -1,5 +1,10 @@
 # Twitter Clock
 
+Turns your Twitter profile picture into an accurate clock that updates every minute.
+
+![](images/preview.png)
+
+
 ## Installation
 ```bash
 # Install GraphicsMagick
