@@ -1,5 +1,7 @@
 # Twitter Clock
 
+## WARNING: USING THIS MAY GET YOUR TWITTER ACCOUNT SHADOWBANNED
+
 Turns your Twitter profile picture into an accurate clock that updates every minute.
 
 ![](images/preview.png)
